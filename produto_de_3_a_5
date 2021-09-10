@@ -1,0 +1,16 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+
+int num, contador;
+
+for (contador=1;contador<=5;contador++)
+{
+    num=3*contador;
+    printf("%d %d\n",contador,num);
+}
+
+system("pause");
+return 0;
+}
