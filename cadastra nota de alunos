@@ -1,0 +1,34 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+
+int contador;
+char sair;
+float nota,total,media;
+total=0;
+sair ='d';
+
+while (sair != 'f')
+{
+   for (contador=1;contador<=4;contador++)
+{
+    printf("Digite a nota \n");
+    scanf("%f",&nota);
+    total=total+nota;
+ }
+
+    media=total/4;
+    printf("media final do aluno....:  %.2f \n",media); 
+    total=0;
+    nota=0;
+    printf("aperte qualquer tecla para continuar, ou F para para o cadastramento das notas\n");
+    sair=getche();
+
+}
+
+
+
+system("pause");
+return 0;
+}
