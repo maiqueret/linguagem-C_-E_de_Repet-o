@@ -1,0 +1,24 @@
+#include<stdio.h>
+#include<stdlib.h>
+
+int main(){
+
+
+int contador;
+contador=10;
+
+printf("<<<<<<<<<Contagem Regressiva>>>>>>>>>>>>>>\n");
+
+while (contador>=0)
+{
+    printf("%d \n",contador);
+    contador--;
+}
+printf("FIM\n");
+
+
+
+
+system("pause");
+    return 0;
+}
